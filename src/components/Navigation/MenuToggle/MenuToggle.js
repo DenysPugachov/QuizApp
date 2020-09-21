@@ -6,7 +6,7 @@ const MenuToggle = props => {
 
     if (props.isOpen) {
         cls.push("fa-times");
-        cls.push(classes.open)
+        cls.push(classes.open);
     } else {
         cls.push("fa-bars");
     }
