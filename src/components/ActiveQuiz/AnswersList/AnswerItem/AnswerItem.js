@@ -3,7 +3,7 @@ import classes from "./AnswerItem.css";
 
 const AnswerItem = props => {
     const cls = [classes.AnswerItem];
-    console.log(props.state);
+    // console.log(props.state);
 
     if (props.state) {
         cls.push(classes[props.state]);
