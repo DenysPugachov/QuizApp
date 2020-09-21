@@ -95,7 +95,6 @@ class Quiz extends Component {
             answerState: null,
         });
     };
-    
 
     render() {
         return (
