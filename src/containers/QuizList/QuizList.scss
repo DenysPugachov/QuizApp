@@ -1,8 +1,8 @@
 .QuizList {
-    // display: flex;
+    display: flex;
     // justify-content: center;
-    display: block;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
     padding-top: 100px;
     flex-grow: 1;
     width: 100%;

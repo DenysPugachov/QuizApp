@@ -14,11 +14,11 @@
     }
 
     &:hover {
-        background: #288400;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
     }
 
     &:active {
-        box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+        box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.3);
     }
 
     &:disabled {
@@ -30,7 +30,6 @@
 
 .success {
     background: rgba(161, 240, 69, 1);
-
 }
 
 .error {
