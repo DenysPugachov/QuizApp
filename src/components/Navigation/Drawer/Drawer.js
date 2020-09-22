@@ -8,8 +8,8 @@ class Drawer extends Component {
     renderLinks() {
         return links.map((link, index) => {
             return (
-                <li key={index}>
-                    <a>Link {link}</a>
+                <li key={ index }>
+                    <a>Link { link }</a>
                 </li>
             );
         });
@@ -23,12 +23,12 @@ class Drawer extends Component {
         }
         return (
             <React.Fragment>
-                <nav className={cls.join(" ")}>
-                    <ul>{this.renderLinks()}</ul>
+                <nav className={ cls.join(" ") }>
+                    <ul>{ this.renderLinks() }</ul>
                 </nav>
-                {this.props.isOpen ? (
-                    <Backdrop onClick={this.props.onClose} />
-                ) : null}
+                {this.props.isOpen
+                    ? <Backdrop onClick={ this.props.onClose } />
+                    : null }
             </React.Fragment>
         );
     }
