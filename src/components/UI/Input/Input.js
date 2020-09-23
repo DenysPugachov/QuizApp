@@ -5,8 +5,6 @@ function isInvalid({ valid, touched, shouldValidate }) {
     return shouldValidate && touched && !valid;
 }
 
-
-
 const Input = props => {
 
     const inputType = props.type || "text";
